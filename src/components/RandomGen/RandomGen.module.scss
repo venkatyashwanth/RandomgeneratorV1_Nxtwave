@@ -1,0 +1,42 @@
+@import "../../scss/base";
+.appBg{
+    height: 100vh;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png");
+    background-size: cover;
+    @include d_xyCenter;
+    .appContent{
+        background-color: var(--lightClr);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        width: 40%;
+        max-width: 32rem;
+        @include d_cxCenter;
+        text-align: center;
+        h1{
+            margin-bottom: var(--Yspacing);
+            @extend %headingText;
+        }
+        p{
+            margin-bottom: var(--Yspacing);
+            @extend %paraText;
+        }
+        .btnElement{
+            margin-bottom: var(--Yspacing);
+            @extend %btnElement;
+        }
+        .randomValue{
+            @extend %randelement;
+            
+        }
+    }
+}
+
+@media screen and (max-width: 767.5px){
+    .appBg{
+        .appContent{
+            width: 100%;
+            margin: 20px;
+        }
+    }
+}

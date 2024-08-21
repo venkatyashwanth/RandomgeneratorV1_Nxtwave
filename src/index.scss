@@ -1,0 +1,31 @@
+:root{
+    --lightClr: #ffffff;
+    --lightClr1: #e4ebf3;
+    --lightClr2:  #eaebed;
+    --clr1: #0b69ff;
+    --darkClr1: #333333;
+
+    --fontvar1: "Roboto", sans-serif;
+    --fontvar2: "Matemasie", sans-serif;
+
+    --headingFontSize: 2.4rem;
+    --paraFontSize: 1.8rem;
+    --randomFontSize: 2.8rem;
+
+    --Yspacing: 2rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: var(--fontvar1);
+}
+
+html {
+    font-size: 62.5%;
+}

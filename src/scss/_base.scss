@@ -1,0 +1,36 @@
+@mixin d_xyCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin d_cxCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+%headingText {
+    font-weight: 500;
+    color: var(--clr1);
+    font-size: var(--headingFontSize);
+}
+
+%paraText {
+    font-weight: 400;
+    font-size: var(--paraFontSize);
+}
+
+%btnElement {
+    border: none;
+    background-color: var(--clr1);
+    color: var(--lightClr);
+    padding: .6rem 1.2rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+%randelement {
+    font-size: var(--randomFontSize);
+    color: var(--clr1);
+}
